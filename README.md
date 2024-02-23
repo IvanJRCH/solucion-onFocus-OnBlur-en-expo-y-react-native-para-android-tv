@@ -13,7 +13,7 @@ react-native-tvos, escribo esto porque me costo mucho hallar una solucion y la d
   luego coloca este comando yarn install o npm install
 
 <b>paso 3) </b>
-  asegurate que de activar esta opcion newArchEnabled=true en el archivo gradle.properties en la carpeta tuApp/android/gradle.properties
+  asegurate que de activar esta opcion <b>newArchEnabled=true</b> en el archivo <b>gradle.properties</b> en la carpeta tuApp/android/gradle.properties
 
 <b>paso 4)</b> 
   onFocus y onBlur no funciona con TouchableWithoutFeedback, TouchableOpacity, TouchableHighlight solo funciona con Pressable pero solo despues 
