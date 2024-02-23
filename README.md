@@ -4,10 +4,10 @@ solucion onFocus/OnBlur en expo y react native para android tv
 Esta es la solucion que yo encontre para que onFocus y onBlur funcionara en android tv con expo y react native utilizando
 react-native-tvos, escribo esto porque me costo mucho hallar una solucion y la describo aqui para que otros la hallen igual que yo
 
-paso 1)
+<b>paso 1)</b>
   cambiar el nombre a la carpeta node_modules
 
-paso 2) 
+<b>paso 2)</b> 
   agrega "react-native": "npm:react-native-tvos@latest", tal como lo dice su documentacion en https://www.npmjs.com/package/react-native-tvos?activeTab=readme
   y asegurate que no tienes en tu archivo package.json una linea como esta  "react-native-tvos": "^0.73.4-0", si hay una linea a si en tu package.json borrala
   luego coloca este comando yarn install o npm install
@@ -15,11 +15,11 @@ paso 2)
 paso 3) 
   asegurate que de activar esta opcion newArchEnabled=true en el archivo gradle.properties en la carpeta tuApp/android/gradle.properties
 
-paso 4) 
+<b>paso 4)</b> 
   onFocus y onBlur no funciona con TouchableWithoutFeedback, TouchableOpacity, TouchableHighlight solo funciona con Pressable pero solo despues 
   de activar newArchEnabled=true en gradle.properties
 
-paso 5) 
+<b>paso 5)</b> 
  ejemplo de codigo 
 
  
