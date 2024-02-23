@@ -12,7 +12,7 @@ react-native-tvos, escribo esto porque me costo mucho hallar una solucion y la d
   y asegurate que no tienes en tu archivo package.json una linea como esta  "react-native-tvos": "^0.73.4-0", si hay una linea a si en tu package.json borrala
   luego coloca este comando yarn install o npm install
 
-paso 3) 
+<b>paso 3) </b>
   asegurate que de activar esta opcion newArchEnabled=true en el archivo gradle.properties en la carpeta tuApp/android/gradle.properties
 
 <b>paso 4)</b> 
